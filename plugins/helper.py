@@ -30,7 +30,7 @@ playlist=Config.playlist
 HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**,\n\nI'm **Radio Player V3.0** \nI Can Play Radio / Music / YouTube Live In Channel & Group 24x7 Nonstop. Made with ❤️ By @AsmSafone 😉!"
 HELP_TEXT = """
 🎧 --**Need Help ?**--
-(Join @SafoTheBot For Support)
+(Join @allbotdeveloper For Support)
 
 🏷️ --**Common Commands**-- :
 
@@ -58,7 +58,7 @@ HELP_TEXT = """
 \u2022 `/restart` - update & restart the bot
 
 © **Powered By** : 
-**@AsmSafone | @SafoTheBot** 👑
+**@allbotdeveloper | @allbotdeveloper** 👑
 """
 
 
@@ -170,12 +170,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/allbotdeveloper"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/allbotdevelopersupport1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/allbotdeveloper/7"),
+                InlineKeyboardButton("Movie website", url="https://t.me/Netflix_Hindi_HD"),
             ],
             [
                 InlineKeyboardButton("CLOSE 🔐", callback_data="close"),
@@ -196,12 +196,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 async def start(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/allbotdeveloper"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/allbotdevelopersupport1"),
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("Movie website", url="https://t.me/Netflix_Hindi_HD"),
             ],
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
@@ -218,12 +218,12 @@ async def start(client, message):
 async def help(client, message):
     buttons = [
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/SafoTheBot"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/allbotdeveloper"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/allbotdevelopersupport1"),
             ],
             [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/AsmSafone/RadioPlayerV3"),
+                InlineKeyboardButton("MORE BOTS", url="https://t.me/allbotdeveloper/7"),
+                InlineKeyboardButton("Movie website", url="https://t.me/Netflix_Hindi_HD"),
             ],
             [
                 InlineKeyboardButton("CLOSE 🔐", callback_data="close"),
