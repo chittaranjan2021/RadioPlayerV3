@@ -208,7 +208,7 @@ async def start(client, message):
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
-    m=await message.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
+    m=await message.reply_photo(photo="https://telegra.ph/file/c5d97f5a90bf8bd716ae6.gif", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
     await mp.delete(m)
     await mp.delete(message)
 
@@ -232,6 +232,6 @@ async def help(client, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     if msg.get('help') is not None:
         await msg['help'].delete()
-    msg['help'] = await message.reply_photo(photo="https://telegra.ph/file/4e839766d45935998e9c6.jpg", caption=HELP_TEXT, reply_markup=reply_markup)
+    msg['help'] = await message.reply_photo(photo="https://telegra.ph/file/c5d97f5a90bf8bd716ae6.gif", caption=HELP_TEXT, reply_markup=reply_markup)
     await mp.delete(message)
 
